@@ -6,4 +6,5 @@ function increment() {
 
 function save(){
     console.log(count);
+    document.getElementById("save-p").innerText += count + " - "
 }
